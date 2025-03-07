@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "@septem/tool",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "@septem/tool 标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.API文档": {
+    "message": "API文档",
+    "description": "Navbar item with label API文档"
+  },
+  "item.label.指南": {
+    "message": "指南",
+    "description": "Navbar item with label 指南"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+} 

@@ -1,0 +1,15 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs/api",
+  "name": "@septem/tool",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "hideGenerator": true,
+  "readme": "none",
+  "plugin": ["typedoc-plugin-markdown"],
+  "theme": "markdown",
+  "entryDocument": "README.md",
+  "categorizeByGroup": true,
+  "categoryOrder": ["Array", "Object", "Function", "String", "Utility", "*"]
+}
