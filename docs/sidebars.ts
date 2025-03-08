@@ -24,6 +24,8 @@ const sidebars: SidebarsConfig = {
         'api/function',
         'api/string',
         'api/utility',
+        'api/qs',
+        'api/cx',
       ],
     },
   ],

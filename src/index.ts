@@ -24,6 +24,8 @@ import find from "./find";
 import camelCase from "./camelCase";
 import kebabCase from "./kebabCase";
 import random from "./random";
+import { stringify, parse, parseUrl } from './qs';
+import { cx } from './cx';
 
 export {
   isEqual,
@@ -47,6 +49,10 @@ export {
   camelCase,
   kebabCase,
   random,
+  stringify,
+  parse,
+  parseUrl,
+  cx,
 };
 
 // 默认导出
@@ -72,4 +78,8 @@ export default {
   camelCase,
   kebabCase,
   random,
+  stringify,
+  parse,
+  parseUrl,
+  cx,
 };

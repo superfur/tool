@@ -1,6 +1,6 @@
 {
   "name": "@septem/tool",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "A JavaScript utility library",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/septem/tool.git"
+    "url": "https://github.com/superfur/septem-tool.git"
   },
   "publishConfig": {
     "access": "public"

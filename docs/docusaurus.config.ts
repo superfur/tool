@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://septem.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/tool/',
+  baseUrl: '/septem-tool/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -61,6 +61,10 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  // 添加输出配置
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   themeConfig: {
     // Replace with your project's social card
